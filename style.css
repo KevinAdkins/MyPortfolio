@@ -99,7 +99,7 @@ h1 {
   gap: 15px;
 }
 
-.box1 a, .box2 a, .box3 a, .box4 a, .box5 a, .box6 a, .box7 a{
+.box1 a, .box2 a, .box3 a, .box4 a, .box5 a, .box6 a, .box7 a, .box8 a {
   display: inline-block;
   background: linear-gradient(to bottom, #4facfe, #00f2fe);
   border-radius: 15px; /* rounded corners */
@@ -142,4 +142,5 @@ div.about-details {
   font-size: 16px;
   margin-top: 8px;
   color: #ccc;
+
 }
