@@ -43,9 +43,7 @@
   </div>
   </ul>
   </div>
-  <button class="nav-toggle" aria-label="toggle navigation">
-  ☰
-  </button>
+<button class="nav-toggle" aria-label="toggle navigation">☰</button>
   </nav>
 
 <canvas id="pfp" class="pfp" width="150" height="150"></canvas>
@@ -76,7 +74,18 @@
   </div>
   </div>
 </section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggle = document.querySelector('.nav-toggle');
+    const links  = document.querySelector('.nav-links');
+
+    if (toggle && links) {
+      toggle.addEventListener('click', () => {
+        links.classList.toggle('active');
+      });
+    }
+  });
+</script>
 </body>
 </html>
-
-
