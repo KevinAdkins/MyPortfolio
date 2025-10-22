@@ -99,7 +99,7 @@ h1 {
   gap: 15px;
 }
 
-.box1 a, .box2 a, .box3 a, .box4 a, .box5 a, .box6 a, .box7 a, .box8 a {
+.box1 a, .box2 a, .box3 a, .box4 a, .box5 a, .box6 a, .box7 a, .box8 a, .box9 a {
   display: inline-block;
   background: linear-gradient(to bottom, #4facfe, #00f2fe);
   border-radius: 15px; /* rounded corners */
@@ -114,7 +114,7 @@ h1 {
 }
 
 .box1 a:hover, .box2 a:hover, .box3 a:hover, 
-.box4 a:hover, .box5 a:hover, .box6 a:hover , .box7 a:hover {
+.box4 a:hover, .box5 a:hover, .box6 a:hover , .box7 a:hover, .box8 a:hover, .box9 a:hover {
   color: #f0f0f0; 
 }
 
@@ -199,4 +199,31 @@ section {
 @media (max-width: 768px) {
   section { padding: 24px 12px; }
   .pfp { width: 150px; height: 150px; }
+}
+
+/* Resume Styles */
+.resume-section {
+  padding-top: 0;
+  padding-bottom: 16px;
+}
+
+.resume {
+  text-align: center;
+  margin-top: -50px;
+}
+
+.resume-link {
+  display: inline-block;
+  border: 1px solid #555;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.resume-link:hover {
+  background-color: #555;
+  color: lightgray;
 }
