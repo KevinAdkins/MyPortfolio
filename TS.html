@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript Projects</title>
+    <link rel="stylesheet" href="tsstyle.css">
+</head>
+
+<body class="background">
+  <nav class="navbar">
+    <div class="navdiv">
+      <script>
+        window.addEventListener("scroll", function() {
+         const nav = document.querySelector(".navbar");
+         const scrollY = window.scrollY;
+         if (scrollY === 0) {
+          nav.style.opacity = "1";
+         } else {
+          nav.style.opacity = "0.7";
+         }
+      });
+      </script>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Back</a></li>
+      <div class="topnav-right" >
+  <li class="linkedin"><a href="https://www.linkedin.com/in/kevin-adkins-ii/">
+    <img src="images/linkedin.png" alt="LinkedIn" style="height:18px;vertical-align:middle;margin-right:6px;">
+    LinkedIn</a></li>
+
+  <li class="github"><a href="https://github.com/KevinAdkins">
+    <img src="images/github.png" alt="GitHub" style="height:18px;vertical-align:middle;margin-right:6px;">
+    GitHub</a></li>
+
+ <li class="email">
+  <a href="mailto:kevin.adkins1903@gmail.com">
+    <img src="images/email.png" alt="Email" style="height:18px; vertical-align:middle; margin-right:6px;">
+    Email </a></li>
+  </div>
+  </ul>
+  </div>
+<button class="nav-toggle" aria-label="toggle navigation">☰</button>
+  </nav>
+
+<section id="projects" class ="My Projects">
+  <div class="projects-container">
+  <h1>My Projects</h1>
+  <p>Here are some of the projects I've worked on using Python:</p>
+     <div class="project-container">
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggle = document.querySelector('.nav-toggle');
+    const links  = document.querySelector('.nav-links');
+
+    if (toggle && links) {
+      toggle.addEventListener('click', () => {
+        links.classList.toggle('active');
+      });
+    }
+  });
+</script>
+</section>
+</html>
